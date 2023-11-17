@@ -15,3 +15,8 @@ app.post("/home", (req, resp) => {
     console.log("Browser requested" , "POST API")
     resp.send("Hello Request")
 })
+
+application.put("/home" , (req, resp) => {
+    console.log("requested to put request")
+    resp.send({ name: "aravind" , age: 22})
+})
