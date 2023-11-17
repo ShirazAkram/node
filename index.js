@@ -15,3 +15,8 @@ app.post("/home", (req, resp) => {
     console.log("Browser requested" , "POST API")
     resp.send("Hello Request")
 })
+
+app.delete("/home", (req, resp) => {
+    console.log("Adding delete req by govind")
+    resp.send("asdfghjkl")
+})
