@@ -16,7 +16,7 @@ app.post("/home", (req, resp) => {
     resp.send("Hello Request")
 })
 
-application.put("/home" , (req, resp) => {
+app.put("/home" , (req, resp) => {
     console.log("requested to put request")
     resp.send({ name: "aravind" , age: 22})
 })
